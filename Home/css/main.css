@@ -1,0 +1,639 @@
+* {
+margin:0;
+padding:0;
+}
+
+body {
+background:url(../images/bg.png) #ebe7de;
+overflow-x:hidden;
+height:2330px;
+width:1400px;
+font-family:Arial;
+}
+
+a {
+text-decoration:none;
+}
+
+.logo {
+height:45px;
+background:#242424;
+}
+
+.fooseshoes {
+font-size:26px;
+color:#57c5a0;
+text-transform:uppercase;
+text-align:left;
+float:left;
+margin-left:230px;
+margin-top:5px;
+z-index:281;
+}
+
+.rectangle {
+background-color:#242424;
+box-shadow:1px 0 0 0 rgba(255,255,255,0.35), inset 1px 0 0 0 rgba(255,255,255,0.35);
+float:right;
+margin-right:230px;
+width:140px;
+height:45px;
+}
+
+.login {
+font-size:11px;
+color:#7e7e7e;
+width:140px;
+padding-top:17px;
+text-align:center;
+z-index:278;
+display:block;
+}
+
+.logo a:hover .rectangle {
+background:#FFF;
+}
+
+.search_icon {
+float:right;
+margin-right:20px;
+margin-top:16px;
+width:14px;
+height:14px;
+}
+
+.navigation {
+background-color:#fff;
+width:1400px;
+height:60px;
+z-index:244;
+}
+
+.menu {
+margin-left:230px;
+height:60px;
+float:left;
+}
+
+.menu ul li {
+list-style:none;
+float:left;
+border-left:1px solid #eee;
+height:60px;
+}
+
+.menu ul li:last-child {
+border-right:1px solid #eee;
+}
+
+.menu ul li a {
+color:#242424;
+display:block;
+font-size:12px;
+vertical-align:middle;
+font-family:"Segoe UI";
+padding:22px 24px;
+}
+
+.menu ul li a:hover {
+background:rgba(0,0,0,.2);
+}
+
+.menu2 {
+float:right;
+margin-right:230px;
+}
+
+.menu2 ul li {
+list-style:none;
+border-left:2px solid #eee;
+float:left;
+height:36px;
+width:88px;
+color:#242424;
+font-size:12px;
+padding-top:24px;
+}
+
+.menu2 ul li:last-child {
+border-right:1px solid #eee;
+height:36px;
+}
+
+.menu2 img {
+float:left;
+margin-left:20px;
+}
+
+.num,.num2 {
+border-radius:4px;
+background-color:#adadad;
+width:20px;
+height:17px;
+float:right;
+margin-right:20px;
+text-align:center;
+font-size:12px;
+font-family:Arial;
+color:#fff;
+padding-top:3px;
+}
+
+.text {
+vertical-align:middle;
+}
+
+.num2 {
+background:#57c5a0;
+}
+
+.offer {
+height:460px;
+width:1400px;
+background:#ebe7df url(../images/foto.png);
+}
+
+.offer ul {
+float:right;
+margin-right:290px;
+list-style:none;
+margin-top:60px;
+}
+
+.offer ul li div {
+background-color:#57c5a0;
+width:68px;
+height:67px;
+margin-bottom:18px;
+color:#FFF;
+text-align:center;
+line-height:67px;
+}
+
+.offer ul li:nth-child(2) {
+font-size:40px;
+color:#242424;
+text-align:left;
+line-height:40px;
+}
+
+.offer ul li:nth-child(3) {
+font-size:20px;
+color:#242424;
+text-align:left;
+margin-bottom:20px;
+}
+
+.buttons {
+float:left;
+margin-right:2px;
+}
+
+.offer .buttons div {
+width:40px;
+height:40px;
+background:#fafaf9;
+line-height:40px;
+}
+
+.offer .buttons div img {
+vertical-align:middle;
+text-align:center;
+}
+
+.brand {
+background:#2e2e2e;
+height:82px;
+padding-top:8px;
+}
+
+.scroll {
+height:6px;
+padding-top:2px;
+padding-bottom:2px;
+width:960px;
+margin-left:auto;
+margin-right:auto;
+background:#000;
+margin-bottom:10px;
+}
+
+.active {
+height:6px;
+width:180px;
+margin-left:6px;
+background:#57c5a0;
+float:left;
+}
+
+.borders {
+float:left;
+margin-left:4px;
+margin-right:184px;
+width:2px;
+height:6px;
+background:#2e2e2e;
+}
+
+.first {
+margin-left:260px;
+}
+
+.first h3 {
+color:#FFF;
+}
+
+.name {
+color:#a0a0a0;
+float:left;
+text-align:center;
+font-size:18px;
+line-height:20px;
+margin-right:72px;
+}
+
+.name span {
+font-size:14px;
+color:#a0a0a0;
+}
+
+.specials {
+height:180px;
+background:#242424;
+padding-top:25px;
+padding-bottom:25px;
+}
+
+.foto2 {
+width:960px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.text2 {
+width:180px;
+height:40px;
+background:#000;
+background-color:rgba(36,36,36,0.902);
+text-align:center;
+padding-top:15px;
+font-size:25px;
+color:#fff;
+text-transform:uppercase;
+z-index:172;
+margin:60px auto;
+}
+
+.text3 {
+width:230px;
+}
+
+.foto2>div {
+height:180px;
+width:300px;
+}
+
+.photo1 {
+float:left;
+margin-right:24px;
+background:url(../images/shoes1.png);
+}
+
+.photo2 {
+float:left;
+background:url(../images/shoes2.png);
+}
+
+.photo3 {
+float:left;
+margin-left:24px;
+background:url(../images/shoes3.png);
+}
+
+.goods {
+height:1000px;
+}
+
+.content {
+width:950px;
+height:950px;
+margin:35px auto 22px;
+}
+
+.content h2 {
+font-size:25px;
+color:#242424;
+float:left;
+text-align:left;
+margin-top:10px;
+}
+
+.button {
+float:right;
+font-size:14px;
+color:#bcb5a7;
+font-weight:700;
+text-align:center;
+padding-top:8px;
+border:2px solid #bcb5a7;
+width:102px;
+height:24px;
+z-index:149;
+margin-top:10px;
+}
+
+.titl {
+width:950px;
+height:50px;
+}
+
+.table {
+height:280px;
+width:950px;
+margin-top:30px;
+margin-bottom: 10px;
+}
+
+.two {
+height:319px;
+border-bottom:1px solid #bcb5a7;
+margin-bottom: -5px;
+}
+
+.advices {
+height:200px;
+margin-top:40px;
+float:left;
+}
+
+.advices>div {
+height:120px;
+width:185px;
+float:left;
+background:#dfdbd4;
+font-size:11px;
+color:#242424;
+margin:2px 24px 2px auto;
+padding:30px 15px;
+}
+
+.advices>div>h3 {
+font-size:14px;
+}
+
+.advices .big {
+width:440px;
+margin-right:0;
+float:right;
+}
+
+.date {
+width:36px;
+height:31px;
+background:#57c5a0;
+color:#FFF;
+text-align:center;
+font-weight:700;
+padding-top:5px;
+float:left;
+margin-bottom:10px;
+margin-right:5px;
+}
+
+.big>div {
+clear:both;
+}
+
+.big span {
+font-size:12px;
+}
+
+.table ul {
+margin-right:auto;
+margin-left:auto;
+list-style:none;
+}
+
+.table li {
+float:left;
+}
+
+.photosh {
+width:300px;
+height:272px;
+background:#FFF;
+position:relative;
+}
+
+.fst {
+background:#FFF url(../images/pic1.jpg) no-repeat 50% 0;
+margin-right:24px;
+float:left;
+}
+
+.names {
+width:300px;
+height:50px;
+border-top:1px solid #ccc;
+margin-top:222px;
+position:relative;
+}
+
+.names>div {
+margin-left:92px;
+margin-top:13px;
+font-size:20px;
+color:#242424;
+}
+
+.price {
+background-color:#57c5a0;
+width:68px;
+height:67px;
+margin-bottom:18px;
+color:#FFF;
+text-align:center;
+line-height:67px;
+position:absolute;
+top:205px;
+left:12px;
+}
+
+.atribut {
+background-color:#242424;
+width:68px;
+height:41px;
+font-size:12px;
+color:#FFF;
+text-align:center;
+padding-top:26px;
+position:absolute;
+right:14px;
+}
+
+.trd2>.atribut {
+background:#f27e4b;
+height:47px;
+padding-top:20px;
+}
+
+.snd {
+float:left;
+background:#FFF url(../images/pic2.jpg) no-repeat 50% 0;
+margin-right:24px;
+}
+
+.trd {
+float:left;
+background:#FFF url(../images/pic3.jpg) no-repeat 50% 0;
+}
+
+.fst2 {
+background:#FFF url(../images/pic4.jpg) no-repeat 50% 0;
+margin-right:24px;
+float:left;
+}
+
+.snd2 {
+float:left;
+background:#FFF url(../images/pic5.jpg) no-repeat 50% 0;
+margin-right:24px;
+}
+
+.trd2 {
+float:left;
+background:#FFF url(../images/pic6.jpg) no-repeat 50% 0;
+}
+
+.pictures {
+width:180px;
+height:50px;
+position:absolute;
+top:-10px;
+left:0;
+display:none;
+}
+
+.pictures>a>div {
+margin-right:5px;
+color:#242424;
+width:40px;
+height:40px;
+background:#FFF;
+float:left;
+}
+
+.names:hover .txt {
+opacity:0;
+}
+
+.footer1 {
+height:242px;
+background:#242424;
+border-bottom:2px solid #1c1c1c;
+color:#939393;
+font-size:12px;
+}
+
+.footer1 span {
+color:#57c5a0;
+}
+
+.footer1 .txt_widg {
+margin-left:250px;
+float:left;
+margin-top:50px;
+}
+
+.footer1 .Tw_widg {
+float:left;
+margin-left:50px;
+margin-top:50px;
+}
+
+.footer1 .fl_wdg {
+margin-top:50px;
+margin-left:50px;
+float:left;
+}
+
+.footer1 .day {
+color:#c4c5bf;
+}
+
+.footer1 h3 {
+margin-bottom:20px;
+text-transform:uppercase;
+}
+
+.footer1 img {
+margin-bottom:10px;
+margin-right:8px;
+}
+
+.footer2 {
+height:112px;
+background:#242424;
+}
+
+.footer2 .email {
+background:#2e2e2e;
+width:198px;
+height:36px;
+outline:none;
+border:none;
+color:#6d6d6d;
+margin-left:250px;
+margin-top:36px;
+padding-left:15px;
+font-style:italic;
+float:left;
+}
+
+.footer2>div {
+width:224px;
+height:36px;
+float:right;
+margin-top:36px;
+margin-right:250px;
+}
+
+.footer2>div>a>div {
+margin-right:8px;
+width:36px;
+height:28px;
+background:#2e2e2e;
+float:left;
+padding-top:8px;
+text-align:center;
+}
+
+.footer2 .button_ok {
+margin-top:36px;
+float:left;
+}
+
+.footer3 {
+height:90px;
+background:#2e2e2e;
+color:#9f9f9f;
+}
+
+.footer3 span {
+float:left;
+margin-top:30px;
+font-size:12px;
+}
+
+.footer3 span a {
+color:#9f9f9f;
+}
+
+.copyright {
+margin-left:230px;
+margin-right:473px;
+}
+
+.txt,.names:hover .pictures {
+display:block;
+}
